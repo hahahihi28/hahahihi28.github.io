@@ -1,0 +1,173 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    margin-left: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    font-family: "comic sans-as";
+    color:rgb(100, 91, 91);
+}
+
+.search-bt {
+    padding: 7px 20px;
+    margin-left: 9px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.menu {
+    float: right;
+    width: 590px;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 90px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px 0px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+/* about */
+
+.about_section {
+    width: 100%;
+    float: left;
+}
+
+.about_taital_main {
+    width: 50%;
+    float: left;
+    margin: 70px 20px 0px 150px;
+}
+
+.about_taital {
+    width: 50%;
+    float: left;
+    font-size: 40px;
+    font-family: 'comic sans-as';
+    color: rgba(137, 111, 93, 0.822);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about_text {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    font-family: 'comic sans-as';
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.about_img {
+    margin: 100px 50px 200px 0px;
+}
+
+#warna {
+    width: 100%;
+    background: rgb(231, 207, 189);
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.insta {
+    margin: 0px 0px 0px 5px;
+}
+
+.fa-solid {
+    margin: 0px 5px 0px 0px;
+}
+
+.footer-section {
+    width: 20%;
+    margin:  0 auto;
+}
+
+.footer-section p {
+    font-family: 'open sans', sans-serif;
+}
+
+.footer-section h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgb(78, 72, 66);
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
